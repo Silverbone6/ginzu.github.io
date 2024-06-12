@@ -1,15 +1,91 @@
 body {
-    font-family: "Yu Gothic UI";
-    padding: 5px;
+  background-color: lightblue;
+  font-family: sans-serif;
+  padding: 10px;
 }
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
 h1, h2, p {
-    text-align: center;
+  text-align: center;
 }
+
+.subtitle {
+  font-style: italic;
+}
+
+.menu {
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
+ 
 img {
-    max-height: 500px;   
+  max-width: 500px;
 }
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+ 
+.description {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 20%;
+  float: left;
+}
+
+hr {
+  height: 4px;
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Helvetica, serif;
+}
+
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
