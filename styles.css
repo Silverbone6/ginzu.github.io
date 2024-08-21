@@ -125,6 +125,11 @@ h1, h2 {
   right: 0;
 }
 
+embed {
+  height: 600px;
+  width: 100%;
+}
+
 /* FOOTER */
 
 footer {
